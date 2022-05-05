@@ -115,6 +115,10 @@ app.get('/', (req, res)=>{
     res.send('Running Genius Car Server');
 });
 
+app.get('/hero', (req, res) =>{
+  res.send('Hero Meets Hero Ku');
+})
+
 app.listen(port, ()=>{
     console.log('Listening to port', port);
 })
